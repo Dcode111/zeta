@@ -6,6 +6,7 @@ import Products from "./pages/products/Products";
 import About from "./pages/about/About";
 import Services from "./pages/services/Services";
 import Contact from "./pages/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Services />
       <About />
       <Contact />
+      <Footer />
     </div>
   );
 };

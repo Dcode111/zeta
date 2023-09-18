@@ -9,7 +9,7 @@ const Contact = () => {
 
   return (
     <div id="contact" className=" h-screen flex items-center justify-center">
-      <div className="contact-container sm:flex w-full mx-6 relative">
+      <div className="contact-container">
         <div className="left-container">
           <h2>Contact us</h2>
           <div className="input-container">
@@ -50,20 +50,20 @@ const Contact = () => {
         <div className="divider"></div>
 
         <div className="right-container">
-          <div className="flex flex-col mb-3 mx-4">
+          <div className="flex flex-col mb-3 mx-4 sm:mx-0">
             <h3 className="text-slate-300 font-sans">Opening hours</h3>
             <p>Monday - Friday</p>
             <p className="ml-2">9am - 5pm</p>
             <p>Weekend</p>
             <p className="ml-2">Closed</p>
           </div>
-          <div className="flex flex-col mb-3 mx-4">
+          <div className="flex flex-col mb-3 sm:mx-0 mx-4">
             <h3 className="text-slate-300 font-sans">address</h3>
             <p className="w-32">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             </p>
           </div>
-          <div className="flex flex-col mx-4">
+          <div className="flex flex-col mr-4">
             <h3 className="text-slate-300 font-sans">support</h3>
             <p>example@gmail.com</p>
             <p>+251-912-345-678</p>

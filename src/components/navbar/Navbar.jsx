@@ -17,13 +17,10 @@ const navbar = () => {
       {/* Navbar_Items */}
       <div className="hidden sm:flex text-lg justify-between space-x-6 border-black">
         <div className="nav_links">
-          <a href="#shop">Shop</a>
+          <a href="#products">Products</a>
         </div>
         <div className="nav_links">
           <a href="#services">Services</a>
-        </div>
-        <div className="nav_links">
-          <a href="#products">Products</a>
         </div>
         <div className="nav_links">
           <a href="#about">About</a>
@@ -47,22 +44,19 @@ const navbar = () => {
 
       {/* ************ SideNav ************ */}
       {showNav && (
-        <div className="fixed z-10 top-0 right-0 bottom-0 left-0 h-screen bg-slate-800 bg-opacity-70">
-          <div className="flex flex-col items-center pt-20">
-            <a onClick={showNavHandler} className="nav_link" href="#about">
-              About
+        <div className="fixed z-20 top-0 right-0 bottom-0 left-0 h-screen bg-slate-800 bg-opacity-70">
+          <div className="flex flex-col items-center pt-20 font-bold">
+            <a onClick={showNavHandler} className="nav_link" href="#products">
+              Products
             </a>
             <a onClick={showNavHandler} className="nav_link" href="#services">
               Services
             </a>
-            <a onClick={showNavHandler} className="nav_link" href="#">
+            <a onClick={showNavHandler} className="nav_link" href="#about">
+              About
+            </a>
+            <a onClick={showNavHandler} className="nav_link" href="#contact">
               Contact
-            </a>
-            <a onClick={showNavHandler} className="nav_link" href="#products">
-              Products
-            </a>
-            <a onClick={showNavHandler} className="nav_link" href="#">
-              Shop
             </a>
           </div>
         </div>

@@ -1,5 +1,5 @@
 .contact-container {
-  @apply justify-center items-center bg-black bg-opacity-80 max-w-3xl mx-auto sm:px-6 py-16 rounded-md;
+  @apply w-full sm:flex justify-center items-center bg-black bg-opacity-80 max-w-4xl sm:mx-auto mx-2 sm:px-6 py-12  rounded-md;
 }
 
 .left-container h2 {
@@ -7,7 +7,7 @@
 }
 
 .left-container {
-  @apply sm:w-1/2 pb-2 sm:mr-24;
+  @apply sm:w-1/2 pb-2 sm:mr-10;
 }
 
 .right-container {
@@ -24,5 +24,5 @@
 }
 
 .divider {
-  @apply hidden sm:block absolute top-4 bottom-4 w-16 border-r border-l border-white mx-4;
+  @apply hidden sm:block h-96 w-16 border-r border-l border-white;
 }

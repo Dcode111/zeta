@@ -4,9 +4,9 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="text-center h-screen mt-32">
+    <div id="about" className="text-center h-screen mt-32">
       <h1 className="text-4xl pb-6 font-bold">More about our brand</h1>
-      <p className="max-w-xl mx-auto leading-8">
+      <p className="px-4 max-w-xl mx-auto leading-8">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
         veritatis corporis porro illo assumenda iure eius nulla nesciunt maiores
         unde aperiam facilis provident quaerat nostrum. Optio minima laudantium

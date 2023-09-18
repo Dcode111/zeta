@@ -1,3 +1,45 @@
 .nav_links {
   @apply py-2 px-1 hover:border-b-black hover:scale-105 duration-500 border-b-2 border-slate-100 cursor-pointer;
 }
+
+/* *********** Hamburger memu *********** */
+.hamburger {
+  @apply w-9 h-7 relative hover:cursor-pointer;
+}
+
+.hamburger span {
+  @apply w-9 h-1 bg-black duration-200;
+}
+
+.hamburger.active span {
+  @apply bg-red-500;
+}
+
+.top {
+  @apply absolute;
+}
+
+.mid {
+  @apply absolute top-2.5;
+}
+
+.bot {
+  @apply absolute top-5;
+}
+
+.active .mid {
+  @apply hidden;
+}
+.active .top {
+  @apply rotate-45 translate-y-2.5;
+}
+
+.active .bot {
+  @apply -rotate-45 -translate-y-2.5;
+}
+
+/* **************** Mobile Nav ********************** */
+
+.nav_link {
+  @apply w-full h-16 text-center text-white text-xl hover:text-black hover:bg-white flex justify-center items-center;
+}

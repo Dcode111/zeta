@@ -1,0 +1,28 @@
+.contact-container {
+  @apply justify-center items-center bg-black bg-opacity-80 max-w-3xl mx-auto sm:px-6 py-16 rounded-md;
+}
+
+.left-container h2 {
+  @apply text-5xl text-center sm:text-left text-white font-barlow mb-8;
+}
+
+.left-container {
+  @apply sm:w-1/2 pb-2 sm:mr-24;
+}
+
+.right-container {
+  @apply sm:w-1/2 text-white font-barlow pl-6 sm:block flex flex-wrap justify-center;
+}
+
+.input-container {
+  @apply flex flex-col space-y-4 items-center sm:items-end;
+}
+
+.input-container input,
+.input-container textarea {
+  @apply w-64 outline-none px-2 sm:px-4 py-1 sm:py-2 placeholder:font-barlow placeholder:text-[16px] sm:placeholder:text-lg placeholder:text-slate-500 rounded-sm;
+}
+
+.divider {
+  @apply hidden sm:block absolute top-4 bottom-4 w-16 border-r border-l border-white mx-4;
+}

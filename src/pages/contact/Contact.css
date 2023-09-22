@@ -2,10 +2,6 @@
   @apply w-full sm:flex justify-center items-center bg-black bg-opacity-80 max-w-4xl sm:mx-auto mx-2 sm:px-6 py-12  rounded-md;
 }
 
-.left-container h2 {
-  @apply text-5xl text-center sm:text-left text-white font-barlow mb-8;
-}
-
 .left-container {
   @apply sm:w-1/2 pb-2 sm:mr-10;
 }

@@ -1,0 +1,13 @@
+.loader {
+  animation: rotate 0.5s infinite linear;
+  @apply w-12 h-12 bg-white border-[10px] border-slate-900 border-t-[10px] 
+    border-t-blue-400 rounded-full;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -96,11 +96,9 @@ const Contact = () => {
                     required
                   ></textarea>
                 </div>
-                <div className="w-64">
-                  <button className="px-4 py-2 bg-blue-600 rounded-md text-white hover:scale-105 active:scale-100 duration-300">
-                    Send Message
-                  </button>
-                </div>
+                <button className="w-64 px-4 py-2 bg-blue-600 rounded-md text-white hover:bg-slate-100 hover:text-blue-800 border-white active:scale-[0.98] duration-300">
+                  Send Message
+                </button>
               </form>
               {sending && (
                 <div className="absolute top-0 right-0 left-0 bottom-0 bg-slate-200 bg-opacity-50">

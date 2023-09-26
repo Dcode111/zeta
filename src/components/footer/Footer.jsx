@@ -10,12 +10,12 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="bg-black bg-opacity-90 pt-4">
-      <div className=" flex justify-between px-6">
-        <div className="text-white">
+      <div className="sm:flex justify-between px-6">
+        <div className="text-white sm:text-left text-center">
           <h2>ZETA LOGO</h2>
           <p>Slogan, Lorem ipsum dolor sit.</p>
         </div>
-        <div className="flex sm:space-x-6 space-x-4 items-center">
+        <div className="flex sm:space-x-6 space-x-8 my-3 justify-center items-center">
           <div>
             <a href="#">
               <img className="ficon" src={facebook} alt="" />

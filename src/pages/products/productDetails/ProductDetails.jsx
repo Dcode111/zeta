@@ -15,7 +15,7 @@ const ProductDetails = () => {
   });
 
   return (
-    <div className="flex items-center content-center min-h-screen ">
+    <div className="flex items-center content-center min-h-screen p-10 ">
       <div className="w-full sm:flex px-10 ">
         <div className=" sm:w-1/2 flex items-center justify-center">
           <img src={product?.img} alt={product?.name} />

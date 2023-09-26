@@ -1,13 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Product = ({ product }) => {
   return (
-    <div className="flex flex-col space-y-4 border-2 border-black rounded-lg p-1 bg-slate-200">
+    <div className="items-center flex flex-col border border-black rounded-sm p-1 bg-slate-200">
       <div className="max-w-xs">
-        <img className="aspect-[3/4]" src={product.img} alt="productImage" />
+        <img className="h-56" src={product.img} alt="productImage" />
       </div>
-      <p className="ml-2">{product.name}</p>
-      <p className="ml-2">${product.price}</p>
+      <p className="text-center my-3">{product.name}</p>
+      <Link
+        to={`/product/${product.id}`}
+        className="px-4 py-2 bg-blue-300 rounded-md text-black font-sans hover:text-blue-300 hover:bg-black active:scale-[0.98]"
+      >
+        Product Details
+      </Link>
     </div>
   );
 };

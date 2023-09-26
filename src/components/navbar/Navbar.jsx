@@ -11,23 +11,23 @@ const navbar = () => {
     // Navbar container
     <div className="fixed top-0 right-0 left-0 flex font-barlow justify-between px-10 items-center bg-slate-100 max-w-6xl mx-auto bg-opacity-80">
       {/* Navbar_Logo */}
-      <div className="py-2 text-2xl cursor-pointer">
-        <a href="#home">Logo</a>
-      </div>
+      <a className="py-2 text-2xl cursor-pointer" href="/#home">
+        Logo
+      </a>
       {/* Navbar_Items */}
       <div className="hidden sm:flex text-lg justify-between space-x-6 border-black">
-        <div className="nav_links">
-          <a href="#products">Products</a>
-        </div>
-        <div className="nav_links">
-          <a href="#services">Services</a>
-        </div>
-        <div className="nav_links">
-          <a href="#about">About</a>
-        </div>
-        <div className="nav_links">
-          <a href="#contact">Contact</a>
-        </div>
+        <a className="nav_links" href="#products">
+          Products
+        </a>
+        <a className="nav_links" href="#services">
+          Services
+        </a>
+        <a className="nav_links" href="#about">
+          About
+        </a>
+        <a className="nav_links" href="#contact">
+          Contact
+        </a>
       </div>
 
       {/* ********** Hamburger Menu ********** */}

@@ -9,7 +9,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="bg-black bg-opacity-90 pt-4 min-w-">
+    <div className="bg-black bg-opacity-90 pt-4">
       <div className=" flex justify-between px-6">
         <div className="text-white">
           <h2>ZETA LOGO</h2>
